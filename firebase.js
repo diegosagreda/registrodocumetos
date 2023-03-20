@@ -52,6 +52,6 @@ export const registroDocumento =async (file,uid)=>{
   
 }
 
-export const registrarUsuarioDocumento = (cedula,documento)=>{
+export const registrarUsuarioDocumento = async (cedula,documento) =>{
   addDoc(collection(firestore, "documentos"), {cedula,documento});
 }

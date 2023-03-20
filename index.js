@@ -30,7 +30,7 @@ btn_registrar.addEventListener("click", () => {
     })
     setTimeout(() => {
         window.close();
-    }, 2000);
+    }, 4000);
 })
 btn_cancelar.addEventListener("click", () => {
     window.close();
